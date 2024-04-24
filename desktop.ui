@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>1050</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Desktop</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1680</width>
+      <height>1050</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>%DESKTOP_WALLPAER%</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1680</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSystem">
+    <property name="title">
+     <string>System</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionShutdown"/>
+    <addaction name="actionReboot"/>
+    <addaction name="separator"/>
+    <addaction name="actionEnd_session"/>
+   </widget>
+   <widget class="QMenu" name="menuApplications">
+    <property name="title">
+     <string>Applications</string>
+    </property>
+    <addaction name="actionSurface"/>
+    <addaction name="actionLibreOffice"/>
+    <addaction name="actionThunar"/>
+    <addaction name="actionVLC"/>
+    <addaction name="actionBlender_3D"/>
+   </widget>
+   <addaction name="menuSystem"/>
+   <addaction name="menuApplications"/>
+  </widget>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionTerminal">
+   <property name="text">
+    <string>Terminal</string>
+   </property>
+  </action>
+  <action name="actionShutdown">
+   <property name="text">
+    <string>Shutdown</string>
+   </property>
+  </action>
+  <action name="actionReboot">
+   <property name="text">
+    <string>Reboot</string>
+   </property>
+  </action>
+  <action name="actionEnd_session">
+   <property name="text">
+    <string>End session</string>
+   </property>
+  </action>
+  <action name="actionSurface">
+   <property name="text">
+    <string>Surface</string>
+   </property>
+  </action>
+  <action name="actionLibreOffice">
+   <property name="text">
+    <string>LibreOffice</string>
+   </property>
+  </action>
+  <action name="actionIndexator">
+   <property name="text">
+    <string>Indexator</string>
+   </property>
+  </action>
+  <action name="actionThunar">
+   <property name="text">
+    <string>Thunar</string>
+   </property>
+  </action>
+  <action name="actionVLC">
+   <property name="text">
+    <string>VLC</string>
+   </property>
+  </action>
+  <action name="actionBlender_3D">
+   <property name="text">
+    <string>Blender 3D</string>
+   </property>
+  </action>
+  <action name="actionTelegram">
+   <property name="text">
+    <string>Telegram</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
